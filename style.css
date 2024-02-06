@@ -679,6 +679,10 @@ body {
     line-height: 1.4em;
     text-align: center;
   }
+  .display{
+    max-width: 100%;
+    height: auto;
+  }
   .landingpage .box .infobox-slimtext {
     text-align: center;
   }
@@ -686,6 +690,16 @@ body {
     justify-content: center;
   }
 }
+@media screen and (max-width: 1030px) {
+  /* Your responsive styles for screens 811px and below */
+  .display {
+    display: block !important;
+    max-width: 100%;
+    height: auto;
+    /* Adjust styles accordingly */
+  }
+}
+
 @keyframes leftslide {
   from {
     transform: translateX(-700px);
